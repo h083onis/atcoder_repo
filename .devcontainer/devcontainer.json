@@ -1,0 +1,7 @@
+{
+    "name": "AtCoder",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "atcoder",
+    "workspaceFolder": "/app",
+    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+}
